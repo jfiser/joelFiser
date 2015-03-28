@@ -1,0 +1,160 @@
+{
+    "__COMMENT":"fade or swipe",
+    "swipeType":"fade",
+    "__COMMENT":"load this many first, then load the rest when next btn clicked",
+    "numImagesToLoadAtStart":"12",
+    "__COMMENT":"Used when slideShow works with a grid",
+    "gridIcon":"./img/arrows/grid-icon.svg",
+    "__COMMENT":"bestfit, cinematic, fillview",
+    "displayMethod": "cinematic",
+	"leftArrowUrl":"./img/arrows/arrow_white_left.png",
+	"rightArrowUrl":"./img/arrows/arrow_white_right.png",
+    "showCloseBtn":"false",
+	"stackImageArrowsText": "false",
+    "__COMMENT":"Whether or not to display a pageCount",
+    "usePageCount": "true",
+    "__COMMENT":"When slideShow appears as a modal, turn off scrolling and hide scrollbar",
+    "turnOffScroll":true,
+    "__COMMENT":"If true, when the grid calls the slideShow, it will scroll down to hide the ad - creating more space for the slideShow",
+    "scrollDownToHideAd":true,
+    "hasAudioPlayer":true,
+	"imageArr":
+	[
+		{
+			"imageUrl_2048": "./img/grid/grid_2048/Img1_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img1_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img1_640.jpg",
+			"alt": "Picture of Kenneth Morgan with his wife, Robin, and their children, Gary Effler and Kenneth D. and Korey Morgan",
+			"caption": "<p class=caption1><strong>Kenneth Morgan, </strong>a Gulf War veteran, returned to Detroit four years ago after 30 years away. He left when he was nine years old, traveling the world with his military father, but chose to settle his family in Detroit because, he says, &ldquo;it&rsquo;s home. There&rsquo;s no place like home.&rdquo; Morgan, his wife, Robin, and their children, Gary Effler and Kenneth D. and Korey Morgan, are renovating a duplex they bought on the East Side for $1,800 plus back taxes. </p>",
+			"caption2": "<p class=caption2>&ldquo;I figure if I can fight for my country, I can definitely fight for my city.&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "__COMMENT":"what happens when user clicks on an image in the grid - showImage|1 or url:http://someUrl.com", 
+            "clickAction_grid":"showImage|1",
+            "__COMMENT":"what happens when user clicks on an image in the slideShow - must be a valid URL", 
+            "clickAction_slideShow":"",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/KennethMorgan.mp3"
+		},
+		{
+			"imageUrl_2048": "./img/grid/grid_2048/Img2_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img2_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img2_640.jpg",
+			"alt": "Picture of Aamir Farooqi",
+			"caption": "<p class=caption1><strong>Aamir Farooqi,</strong> a retired executive from Singapore, and a partner have bought 150 homes, some  for as little as $500. They rehab and rent them. He bought his own &ldquo;slowly decaying&rdquo; home from a man who had owned it for half a century. Farooqi hired workers to restore it who sanded every stairway spindle and peeled yellow paint from the fireplace surround of Pewabic tiles, classic to Detroit. &ldquo;If you&rsquo;re going to be invested in Detroit, you better have your own money. Then you have skin in the game.&rdquo; </p>",
+			"caption2": "<p class=caption2>&ldquo;It&rsquo;s like the California gold rush here. But if we are careful and selective, we get to save neighborhoods, and how cool is that?&rdquo;</p>",
+            "crop": "keep-centered-crop-left",
+            "clickAction_grid":"showImage|2",                  "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/AamirFarooqi2_jo.mp3"
+		},
+        {
+			"imageUrl_2048": "./img/grid/grid_2048/Img3_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img3_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img3_640.jpg",
+			"alt": "Picture of Shanika Owens and Jasmine Moore",
+			"caption": "<p class=caption1><strong>Shanika Owens and Jasmine Moore</strong> are first-year Wayne State law students. The two joined a hundred classmates in a service project with the Michigan Urban Farming Initiative, helping weed, garden, and pick up trash in a Midtown neighborhood. Both Detroiters intend to stay in the city, using their degrees to improve its civic life, perhaps as judges. Owens, quoted above, decided to go to law school so she could &ldquo;learn the rules of the game&rdquo; for how the city works. </p>",
+			"caption2": "<p class=caption2>&ldquo;The question is: How do we protect the people most vulnerable around us as we change the city and make it better?&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|3",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/ShanikaOwens_jo.mp3"
+		},
+        {
+			"imageUrl_2048": "./img/grid/grid_2048/Img4_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img4_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img4_640.jpg",
+			"alt": "Picture of Ronel Pounds",
+			"caption": "<p class=caption1><strong>Ronel Pounds, </strong>a native Detroiter, came back after more than a decade in Virginia, working and playing semipro football. He returned for a coveted union job at a construction company with steady work in downtown development projects. Father to two daughters and four stepchildren, he follows a path far different from the one of his youth. &ldquo;I done sold the drugs, I done toted the gun, but overall I came out on top, man. I&rsquo;m truly blessed to come out on top, man. Thanks to God.&rdquo;</p>",
+			"caption2": "<p class=caption2>&ldquo;I definitely think Detroit is on the rise, but it&rsquo;s gonna take time. It&rsquo;s not gonna take no one, two, three years. It&rsquo;s gonna take at least five or more years.&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|4",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/RonelPounds_jo.mp3"
+		},
+        {
+			"imageUrl_2048": "./img/grid/grid_2048/Img5_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img5_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img5_640.jpg",
+			"alt": "Picture of Vincent Peele",
+			"caption": "<p class=caption1><strong>Vincent Peele, </strong>a former welder and supervisor on a Ford assembly line, works part-time now at  a Ford body shop. No matter the occasion, he dresses to impress. &ldquo;Everybody says they like the way I dress. That&rsquo;s the way I go. That&rsquo;s how I used to come out of Ford Motor Company. When I get through doing my work, I go in there and take me a shower and put my suit on, and I get the jump on outta there.&rdquo;</p>",
+			"caption2": "<p class=caption2>&ldquo;I think Detroit will probably do a comeback.&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|5",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/VincentPeele_jo.mp3"
+		},
+        {
+			"imageUrl_2048": "./img/grid/grid_2048/Img6_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img6_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img6_640.jpg",
+			"alt": "Picture of Antonio Agee",
+			"caption": "<p class=caption1><strong>Antonio Agee,</strong> who signs his graffiti &ldquo;Shades,&rdquo; knew Detroit at its worst, when he could vandalize buildings without challenge. Now in demand for his art, he says, &ldquo;I work at night. I don&rsquo;t work around people.&rdquo; His hometown is four square miles of optimism &ldquo;surrounded by reality,&rdquo; he says. &ldquo;We&rsquo;re building from the inside out. There&rsquo;s a lot to still be developed. People say Detroit is flourishing. Really? Go on the West Side where my mom lives. You&rsquo;ll be surprised.&rdquo;</p>",
+			"caption2": "<p class=caption2>&ldquo;You can&rsquo;t save Detroit. You gotta <em>be</em> Detroit.&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|6",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/Shades.mp3"
+		},
+        {
+			"imageUrl_2048": "./img/grid/grid_2048/Img7_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img7_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img7_640.jpg",
+			"alt": "Picture of jessica Care moore",
+			"caption": "<p class=caption1><strong>jessica Care moore </strong>(lowercase by her choice), a poet and activist, moved back to Detroit in 2007 with her ten-month-old son &ldquo;to get my peace&rdquo; after leaving a failed marriage. She didn&rsquo;t expect to stay but felt a connection with the art community and decided &ldquo;they could use me here.&rdquo; In her poem &ldquo;You May Not Know My Detroit&rdquo; she portrays the struggles and triumphs of residents and asserts: &ldquo;We may have abandoned homes, but we are not an abandoned people.&rdquo;</p>",
+			"caption2": "<p class=caption2>&ldquo;We may have abandoned homes, but we are not an abandoned people.&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|7",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/JessicaCaremoore.mp3"
+		},
+        {
+			"imageUrl_2048": "./img/grid/grid_2048/Img8_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img8_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img8_640.jpg",
+			"alt": "Picture of Eddie Chrzan",
+			"caption": "<p class=caption1><strong>Eddie Chrzan (aka Bullethead)</strong> was born and raised in Detroit. He gets around the 139 square miles of the city on his bikes. For casual rides he rolls out his Schwinn Sting-Ray, his &ldquo;lit-up bike.&rdquo; But he dreams of owning a Ford Aerostar van and is a member of the Knights of the Round Table Van and Truck Club. &ldquo;We&rsquo;re more than a club. We&rsquo;re a family. We watch out for each other. We step up for each other when we need to.&rdquo;</p>",
+			"caption2": "<p class=caption2>&ldquo;Here there&rsquo;s a lot of history nobody knows about. And it kinda sucks. But it&rsquo;s history that nobody else has in the U.S.&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|8",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/Bullethead.mp3"
+		},
+		{
+			"imageUrl_2048": "./img/grid/grid_2048/Img9_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img9_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img9_640.jpg",
+			"alt": "Picture of Shervette Michelle Standford",
+			"caption": "<p class=caption1><strong>Shervette Michelle Standford</strong> celebrated her 46th birthday at Bert&rsquo;s Market Place, a jazz club  in the Eastern Market neighborhood, by singing karaoke selections from Gladys Knight and Whitney Houston. She moved to Detroit as a child when her family home was lost in the 1971 southern California earthquake. She insists that Detroit doesn&rsquo;t deserve its bad rap. &ldquo;It&rsquo;s my city. You can enjoy yourself. Detroit is beautiful.&rdquo; </p>",
+			"caption2": "<p class=caption2>&ldquo;I think that once they get everything together as far as the finances, Detroit will be back on the map, bigger and better than ever.&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|9",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/ShervetteStanford_jo.mp3"
+		},
+        {
+			"imageUrl_2048": "./img/grid/grid_2048/Img10_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img10_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img10_640.jpg",
+			"alt": "Picture of Rebecca Graham",
+			"caption": "<p class=caption1><strong>Rebecca Graham,</strong> 99, sits surrounded by portraits of five generations of her family in her Midtown home. She has lived in this house since the 1950s and has seen profound changes in the city, including the National Guard patrolling her street during the 1967 riots that sped up migration to the suburbs. Although her neighborhood is on the upswing due to renewed investment, she misses earlier times when she knew everyone on the block.</p>",
+			"caption2": "<p class=caption2>&ldquo;They say it&rsquo;s coming back, but they got a lot of work to do.&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|10",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/RebeccaGraham.mp3"
+		},
+        {
+			"imageUrl_2048": "./img/grid/grid_2048/Img11_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img11_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img11_640.jpg",
+			"alt": "Picture of Shyra Jones",
+			"caption": "<p class=caption1><strong>Shyra Jones,</strong> an autoworker, joins thousands of Detroiters at the Slow Roll, a weekly ride on roads left less crowded after more than half the population moved out. Built for many more cars than are there now, the city has become bike friendly, adding 150 miles of dedicated lanes.</p>",
+			"caption2": "<p class=caption2>&ldquo;It&rsquo;s good down here, especially in the summertime, when the flowers and everything are out.&rdquo;",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|11",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/ShyraJones_1_jo.mp3"
+		},
+        {
+			"imageUrl_2048": "./img/grid/grid_2048/Img12_2048.jpg",
+            "imageUrl_1536": "./img/grid/grid_1536/Img12_1536.jpg",
+			"imageUrl_640": "./img/grid/grid_640/Img12_640.jpg",
+			"alt": "Picture of Francis Bolis",
+			"caption": "<p class=caption1><strong>Francis Bolis</strong> relaxes among the work of local artists in his living room in Palmer Woods, a stable neighborhood that is home to judges, mayors, doctors, and other professionals. He came to Detroit in 1979 as a political refugee from Iraq and since 1989 has owned a hair salon downtown.</p>",
+			"caption2": "<p class=caption2>&ldquo;Detroit would not have been able to pay its debts had it not been for bankruptcy. It always would have been two steps behind, and this is going to give Detroit a really fresh start.&rdquo;</p>",
+            "crop": "keep-centered-crop-right",
+            "clickAction_grid":"showImage|12",
+            "clickAction_slideShow":"http://cnn.com",
+            "audio":"http://ngm.nationalgeographic.com/2015/05/detroit/FrancisBolis.mp3"
+		}
+		
+	]
+}

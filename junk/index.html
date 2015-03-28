@@ -1,0 +1,38 @@
+
+
+<link rel="stylesheet" href="css/inlineSlideShow.css">
+<link rel="stylesheet" href="css/slideShow_masks.css">
+<style>
+#slideShow1Div{
+	width:100%;
+	height:666px;
+}
+h1{
+	font-family:Arial;
+	font-size:35;
+	text-align:center;
+	width:100%;
+	color:gray;
+}
+</style>
+
+
+<!-- slideShow JS -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="./js/Tweenlite.min.js"></script>
+<script src="./js/CSSPlugin.min.js"></script>
+<script src="./js/EasePack.min.js"></script>
+<script src="./js/jquery.visible.min.js"></script>
+<script src="./js/SlideShow.js"></script>
+<script src="./js/hammer.min.js"></script>
+<script src="./js/jquery.lazy.min.js"></script>
+
+<h1>Joel Fiser</h1>
+<div id="slideShow1Div" class="inlineSlideShow" tabindex="0"></div>
+
+
+<script>
+    $(document).ready(function(){
+		var slideShow1 = new SlideShow("slideShow1Div", "data/jf-paintings.json");
+	} );
+</script>

@@ -1,0 +1,425 @@
+
+@charset "UTF-8";
+
+#slideShow1Div{
+    height:700px;
+    z-index:100;
+	width:100%;
+	height:100%;
+    /*min-height:680px;*/
+}
+.inlineSlideShow2{
+	display: block;
+	margin: auto;
+	opacity: 1;
+	background: white;
+	position: fixed;
+	/*max-width: 748px;*/
+}
+@media screen and (max-width:770px){
+	.inlineSlideShow2  .slideShowHolder{ 
+		width:100%;
+		height:90%;
+		position:absolute;
+		left:0%;
+		top:10%;
+		/*max-width: 748px;*/
+		/*background: none;*/
+	}
+}
+
+@media screen and (min-width:771px){
+	.inlineSlideShow2  .slideShowHolder{ 
+		width:50%;
+		height:100%;
+		position:absolute;
+		left:5%;
+		/*max-width: 748px;*/
+		/*background: none;*/
+	}
+}
+/* DIV that holds all of the actual slides (there's one slidesHolder per slideShow) */
+.inlineSlideShow2 .slidesHolder{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:1000;
+	overflow:hidden;
+	margin:auto;
+	left:0;
+	right:0;
+}
+/* Div that holds each slide and its caption (one for each slide)  */
+.inlineSlideShow2 .slideHolder{
+	width:100%;
+	height:100%;
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	overflow:hidden;
+    /*pointer-events: none;*/
+	background:white;
+}
+.inlineSlideShow2 .imageHolder{
+	width:100%;
+	height:100%;
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+	top:0;
+	overflow:hidden;
+}
+
+@media (max-width: 767px) {
+    .inlineSlideShow2  .captionBarHolder{
+        position:absolute;
+        width:100%;
+        bottom:0px;
+        padding:0 20px 0 20px;
+        /*background-color:#f3f3f3;*/
+        z-index:1100;
+    }
+}
+@media (min-width: 768px) {
+    .inlineSlideShow2  .captionBarHolder{
+        position:absolute;
+        right:50px;
+        width:30%;
+        bottom:20px;
+        /*background-color:#f3f3f3;*/
+        z-index:1100;
+    }
+}
+.inlineSlideShow2  .captionBarHolder2{
+	position:absolute;
+    right:50px;
+	width:30%;
+	/*height:25%;*/
+	top:50px;
+	/*background-color:#f3f3f3;*/
+	z-index:1100;
+}
+
+.inlineSlideShow2 .pageCountHolder{
+    position:absolute;
+    left:20px;
+    top:20px;
+    text-align:center;
+}
+@media (max-width: 500px){
+    .inlineSlideShow2 .pageCount{
+        font-size: 12px;
+        color: gray;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        /*top:-66px;*/
+        position:relative;
+        /*margin-right:20px;*/
+        /*display:inline-block;*/
+        line-height:27px;
+        font-family: pragmatica-web, "Helvetica Neue", Heletica, Arial, sans-serif;
+        display:none;
+    }
+    .inlineSlideShow2 .gridIcon{
+        position:relative;
+        /*margin:20px auto;*/
+        display:none;
+        cursor:pointer;
+    }
+}
+@media  (min-width: 501px) and (max-width: 700px){
+    .inlineSlideShow2 .pageCount{
+        font-size: 12px;
+        color: gray;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        /*top:-66px;*/
+        position:relative;
+        /*margin-right:20px;*/
+        display:inline-block;
+        font-family: pragmatica-web, "Helvetica Neue", Heletica, Arial, sans-serif;
+        display:none;
+    }
+    .inlineSlideShow2 .gridIcon{
+        position:relative;
+        /*margin:20px auto;*/
+        display:none;
+        cursor:pointer;
+    }
+}
+@media (min-width: 701px){
+    .inlineSlideShow2 .pageCount{
+        font-size: 12px;
+        color: gray;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        position:relative;
+        margin-right:20px;
+        display:inline-block;
+        font-family: pragmatica-web, "Helvetica Neue", Heletica, Arial, sans-serif;
+        display:none;
+    }
+    .inlineSlideShow2 .gridIcon{
+        position:relative;
+        margin:20px auto;
+        display:inline-block;
+        cursor:pointer;
+    }
+}
+@media (max-width:770px){
+	.inlineSlideShow2 .arrowHolder{
+		position:absolute;
+		width:100%;
+		height:8%;*/
+		/*margin-top:350px;*/
+		z-index:2000;
+		bottom:20px;
+		display:none;
+		/*margin-bottom:2%;*/
+	}
+}
+@media (min-width:771px){
+	.inlineSlideShow2 .arrowHolder{
+		position:absolute;
+		width:100%;
+		height:12%;*/
+		/*margin-top:350px;*/
+		z-index:2000;
+		top:40%;
+		/*margin-bottom:2%;*/
+	}
+}
+.inlineSlideShow2  .arrowLeft{
+    position:absolute;
+    width:auto;
+    height:100%;
+    right:190px;
+    color:black;
+    z-index:2000;
+	cursor:pointer;
+}
+.inlineSlideShow2  .arrowRight{
+    position:absolute;
+    width:auto;
+    height:100%;
+    right:20px;
+    left:auto;
+    color:black;
+    z-index:2001;
+	cursor:pointer;
+}
+
+.inlineSlideShow2 .closeBtn{
+	position:absolute;
+	right:20px;
+	top:20px;
+	width:30px;
+	height:30px;
+}
+.inlineSlideShow2 .openBtn{
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	
+}
+div:focus{ 
+    outline:0px solid transparent !important; 
+}
+
+@media screen and (min-width: 0px) {
+    .inlineSlideShow2 .caption1{
+        text-align:left;
+        line-height:17px;
+        font-family: pragmatica-web, "Helvetica Neue", Heletica, Arial, sans-serif;
+        font-size:13px;
+        color:white;
+    }
+    .inlineSlideShow2 .caption2{
+        text-align:left;
+        line-height:22px;
+        font-family: "Chronicle SSm 3r", Georgia, Times, "Times New Roman", serif; 
+        font-size:17px;
+        color:white;
+    }
+}
+@media screen and (min-width: 700px) {
+    .inlineSlideShow2 .caption1{
+        text-align:left;
+        line-height:17px;
+        font-family: pragmatica-web, "Helvetica Neue", Heletica, Arial, sans-serif;
+        font-size:13px;
+        color:white;
+    }
+    .inlineSlideShow2 .caption2{
+        text-align:left;
+        line-height:27px;
+        font-family: "Chronicle SSm 3r", Georgia, Times, "Times New Roman", serif; 
+        font-size:20px;
+        color:white;
+    }
+}
+@media screen and (min-width: 1250px) {
+    .inlineSlideShow2 .caption1{
+        text-align:left;
+        line-height:17px;
+        font-family: pragmatica-web, "Helvetica Neue", Heletica, Arial, sans-serif;
+        font-size:13px;
+        color:white;
+    }
+    .inlineSlideShow2 .caption2{
+        text-align:left;
+        line-height:38px;
+        font-family: "Chronicle SSm 3r", Georgia, Times, "Times New Roman", serif; 
+        font-size:30px;
+        color:white;
+    }
+}
+
+/* ALL OF THE WAYS IMAGES CAN CROP */
+.centered{
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+.keep-centered-crop-top{
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.keep-centered-crop-btm{
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+	top:0;
+}
+.keep-centered-crop-left{
+	position:absolute;
+	margin:auto;
+	top:0;
+	right:0;
+	bottom:0;
+}
+.keep-centered-crop-right{
+	position:absolute;
+	margin:auto;
+	left:0;
+	bottom:0;
+	top:0;
+}
+.crop-left-top{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.crop-left-btm{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.crop-right-top{
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.crop-right-btm{
+	position:absolute;
+	left:0;
+	top:0;
+}
+/* END - WAYS IMAGES CAN CROP */
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+/**** Audio controls ******/
+.inlineSlideShow2 .audioPlayerHolder{
+    position:absolute;
+    width:30%;
+    top:55%;
+    right:50px;
+}
+@media  (max-height:700px) and (min-width: 800px) and (max-width: 1023px){
+    .inlineSlideShow2 .audioPlayerHolder{
+        position:absolute;
+        width:100%;
+        top:auto;
+        bottom:0;
+        left:0;
+        z-index:1000;
+    }
+}
+
+.inlineSlideShow2 .audioPlayer {
+    background-color: #4d4d4d;
+    /*overflow:auto;*/
+    width:100%;
+    height:33px;
+    /*height:45px;*/
+
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+
+}
+.inlineSlideShow2 .audioPlayer img.playButton, .audioPlayer img.pauseButton {
+		width:33px;
+		height:33px;
+		float:left;
+		background-color:#acadaf;
+}
+.inlineSlideShow2 .audioPlayer img.pauseButton {
+		display: none;
+}
+/*.inlineSlideShow2 .filler { 
+	background-color:black;
+	height:100%;
+	float:left;
+}*/
+.inlineSlideShow2 audio {
+	display: none;
+}
+.inlineSlideShow2 .progressBar { 
+    width:83%; 
+    position:absolute;
+    top:0;
+    left:33px;
+}
+.inlineSlideShow2 .progress {
+   background-color:#000; 
+   display:inline-block;
+}
+
+#ss_audioDuration {
+    font-family:"pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	line-height:33px;
+    margin-left:40px;
+    font-size: 16px;
+	position:absolute;
+	color:white;
+}
+.inlineSlideShow2 .playAudioText, .showLength {
+	font-family:"pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	font-size: 16px;
+	position:absolute;
+	z-index: 1000;
+	color:white;
+}
+/********* End Audio Controls *************/
+
+
+
+

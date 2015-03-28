@@ -1,0 +1,523 @@
+/* ------ GENERAL CSS ------ */
+
+article {
+	max-width: 46.750em;
+	/*max-width: 48em;*/
+	border: 0px solid red;
+	margin: auto;
+}
+.articleWide {
+	width: 100%;
+	border: 0px solid black;
+	max-width: 46.750em;
+	margin: auto;
+}
+.articleWide a {
+	border: none;
+}
+/* ------ INDEX PAGE / PART 1 CSS ------ */
+.mainContainer {
+	margin-top: 70px;
+}
+#indexPage h1.headerText {
+	text-align: center;
+	font-size: 57px;
+	line-height: 55px;
+	font-family: "Chronicle Display 3r", Georgia, Times, "Times New Roman", serif;
+	font-weight: normal;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+h5.headerKickerText {
+	font-size: 15px;
+	letter-spacing: .2em;
+	text-align: center;
+	font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+#artTherapy {
+	margin-bottom: 90px;
+}
+#artTherapy article p {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+	line-height: 26px;
+	/*font-family: "Chronicle Display 3r", Georgia, Times, "Times New Roman", serif;*/
+	font-family: "Chronicle 3r", Georgia, Times, "Times New Roman", serif;
+	font-weight: lighter;
+}
+#mainArticlePage article p.mainText {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+	line-height: 26px;
+	/*font-family: "Chronicle Display 3r", Georgia, Times, "Times New Roman", serif;*/
+	font-family: "Chronicle 3r", Georgia, Times, "Times New Roman", serif;
+	font-weight: lighter;
+}
+#blastInjuryText {
+	margin-top: -50px;
+}
+#blastInjuryText article p {
+	margin: 0 20px;
+	font-size: 21px;
+	line-height: 29px;
+	font-family: "Chronicle Display 3r", Georgia, Times, "Times New Roman", serif;
+	line-height: 38px;
+	text-align: center;	
+}
+.mainCredit {
+	font-family: "Chronicle Display 3i", Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+#artTherapy .artTherapyIntro {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+}
+
+/* ------ BEGIN SOLDIER INFO MODULE CSS ------ */
+#mainArticlePage h1.headerText {
+	text-align: center;
+	font-size: 72px;
+	line-height: 70px;
+	font-family: "Chronicle Display 3r", Georgia, Times, "Times New Roman", serif;
+	font-weight: normal;
+	margin-top: 15px;
+	margin-bottom: 45px;
+
+}
+.module_soldierInfo {
+	margin-top: 30px;
+}
+.siMainImg img {
+	margin: 0;
+	padding: 0;
+}
+.siMaskCaption {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.siMaskCaption h5 {
+	font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	/*font-weight: bold;
+	font-size: 1.125em;*/
+	text-align: center;	
+	font-size: 14px;
+	line-height: 17px;
+}
+.soldierInfo {
+	overflow: auto;
+	margin-top: 30px;
+	margin-bottom: 65px;
+}
+.imgBlockSection {
+	overflow: auto;
+	border: 0px solid green;
+	margin-bottom: 35px;
+	padding-bottom: 0px;
+}
+#griego .imgBlockSection:nth-of-type(1) {
+	margin-bottom: 2px;
+}
+.siProfilePic {
+	width: 40%;
+	height: auto;
+	margin: 0 auto;
+	border: 0px solid red;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	overflow: hidden;
+	max-width: 150px;
+	min-width: 100px;
+	float: right;
+	margin-right: -10px;
+}
+.siProfilePic img {
+	width: 100%;
+	height: auto;
+}
+.siAudio {
+    width: 32.1%; /* whatever width you want */
+    /*max-width: 120px;
+    min-width: 75px;*/
+    max-height: 168px;
+    min-height: 112px;
+    min-width: 75px;
+    display: inline-block;
+    position: relative;
+    border: 0px solid red;
+    margin-left: 20px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.siAudio:after {
+    /*padding-top: 56.25%; /* 16:9 ratio */
+    padding-top: 142%;
+    display: block;
+    content: '';
+    max-width: 120px;
+    min-width: 75px;
+}
+.siAudioContent {
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0; /* fill parent */
+    background-color: #32353A;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.siAudioContent img.playButton, .siAudioContent img.pauseButton {
+		width: 45%;
+		margin-left: 27.5%;
+		margin-top: 16.67%;
+		margin-bottom: 0;
+		padding-bottom: 0px;
+}
+.siAudioContent img.pauseButton {
+		display: none;
+}
+audio {
+	display: none;
+}
+.progressBar { 
+	margin: 0 0;
+   color:#fff; 
+   width:100%; 
+}
+.progress {
+   background-color:#fff; 
+   height:2px;
+   display:inline-block;
+}
+
+.audioDuration {
+	margin-top: 5%;
+}
+.playAudioText, .showLength {
+	font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	margin: 0 0 0 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.white {
+	color:white;
+}
+.siQuote {
+	margin:0 20px;
+}
+/*
+.siQuote h3 {
+	text-align: center;
+	font-family: "Chronicle Deck 6r", Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 22px;
+	line-height: 30px;
+}*/
+h3 {
+	font-family: "Chronicle Deck 6r", Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+}
+/*
+.photoCredit {
+	text-align: center;	
+	font-size: 11px;
+	line-height: 14px;
+	margin-top: 4px;
+	margin-left: 30px;	
+	margin-right: 30px;	
+	color: #808080;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+}*/
+.textLeft {
+	text-align: left;
+}
+.textRight {
+	text-align: right;
+}
+.textCenter {
+	text-align: center;
+}
+.noItalic {
+	font-style: normal;
+}
+.marginTop6 {
+	margin-top: 6px;
+}
+.photoCredit {
+	font-size: 11px;
+	line-height: 14px;
+	color: #808080;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+}
+.borderBottom {
+	border-bottom: 1px solid #333;
+}
+.lineBreak {
+	height: 12px;
+	width: 62%;
+	background-color: #E5E5E5;
+	margin: 0 auto;
+}
+#JS_livefyre {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+/* ------ BEGIN PART 2 ARTICLE PAGE CSS ------ */
+	article p, .articleImgSection {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#mainArticlePage h1 {
+		text-align: center;
+		font-size: 52px;
+		line-height: 54px;
+		font-family: "Chronicle Display 3r", Georgia, Times, "Times New Roman", serif;
+		font-weight: normal;
+		margin-top: 15px;
+		/*margin-bottom: 30px;*/
+	}
+	#mainArticlePage p.lede {
+		margin-top: 30px;
+		margin-bottom: 40px;
+		font-size: 22px;
+		line-height: 28px;
+		font-family: "Chronicle Display 3r", Georgia, Times, "Times New Roman", serif;
+		text-align: center;	
+	}
+	#mainArticlePage p.photoCaption {
+		margin: 8px 30px;
+		font-size: 14px;
+		line-height: 20px;
+		font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+		font-weight: normal;
+	}
+	#mainArticlePage .articleImgSection h5 {
+		font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+		/*font-weight: bold;
+		font-size: 1.125em;*/
+		text-align: left;	
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.marginTop75 {
+		margin-top: 70px;
+	}
+	.marginBottom30 {
+		margin-bottom: 30px;
+	}
+	.marginBottom50 {
+		margin-bottom: 50px;
+	}
+	.marginBottom70 {
+		margin-bottom: 70px;
+	}
+	#mainArticlePage h3 {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#mainArticlePage p span.intro {
+		text-transform: uppercase;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	}
+	.articleWide img.img688 {
+		width: 688px;
+		height: auto;
+	}
+	.blastWide {
+		display: none;
+	}
+	
+	.blastMobile {
+		display: block;
+		margin: auto;
+	}
+
+	#mainArticlePage .lineBreak {
+		height: 11px;
+		width: auto;
+		background-color: #000;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#mainArticlePage .lineBreak2 {
+		height: 11px;
+		width: 65%;
+		background-color: #000;
+		margin: 0 20px;
+	}
+	.blastWaveTransmission {
+		text-transform: uppercase;
+		font-size: 14px;
+		font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+		margin-bottom: 0px;
+	}
+	.milliseconds {
+		margin-top: -2px;
+		margin-bottom: 5px;
+		font-size: 12px;
+		font-style: italic;
+		font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	}
+	.part2QuoteAuthor {
+		font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+		font-weight: bold;
+		font-size: 18px;
+		margin-top: 5px;
+	}
+	.inline {
+		float: none;
+		margin: auto;
+		text-align: center;
+		border: 1px solid #efefef;
+	}
+	.teaser {
+		border: 2px solid #dfdfdf;
+		padding: 20px;
+	}
+	.readMore {
+		margin: 30px 0 20px 0;
+		font-weight: bold;
+		font-style: italic;
+	}
+	.teaseHeader {
+		font-size: 45px;
+		line-height: 46px;
+		font-family: "Chronicle Display 3r", Georgia, Times, "Times New Roman", serif;
+		font-weight: normal;
+		margin: 0 0 10px 0;
+	}
+	.partOneTease img {
+		width: 688px;
+		height: auto;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+
+/* ------ BEGIN MEDIA QUERIES -- TRY TO BE SPARING WITH THESE ------ */	
+	@media (min-width: 688px) {
+	    .articleWide img.img688, .siMainImg, #griego .imgBlockSection {
+	    	margin-left: 30px;
+	    }
+	    .siAudio {
+	    	max-height: 168px;
+	    }
+	}
+	/* this media query below addresses the font size for the soldierInfo module. Mortar auto resizes font but we redefined the h tags -- Vito said font stays small size for small screens and then for medium above will be the same larger size */
+	@media (min-width: 480px) {
+		/*.siMaskCaption h5 {
+			font-size: 18px;
+			line-height: 24px;
+		}*/
+		h3 {
+			font-size: 32px;
+			line-height: 40px;
+		}
+		.playAudioText, .showLength {
+			font-size: 14px;
+			line-height: 20px;
+		}
+		h1.headerText {
+			font-size: 58px;
+			line-height: 60px;
+		}
+		#indexPage h1.headerText {
+			font-size: 104px;
+			line-height: 98px;
+			/*font-size: 72px;
+			line-height: 70px;*/
+		}
+		.audioDuration {
+			margin-top: 10%;
+		}
+		#mainArticlePage h1 {
+			font-size: 72px;
+			line-height: 70px;
+		}
+		.blastWide {
+			display: block;
+		}
+		.blastMobile {
+			display: none;
+		}
+	
+		.part2Quote {
+			font-size: 32px;
+			line-height: 40px;
+		}
+		.inline {
+			float: right;
+			margin: 10px 30px 20px 40px;
+		}
+		#mainArticlePage .lineBreak, #mainArticlePage .lineBreak2 {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+		#artTherapy article p, #mainArticlePage article p.mainText {
+			font-size: 18px;
+			line-height: 28px;
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+		.mainCredit {
+			font-size: 20px;
+		}
+		#JS_livefyre {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+		.siQuote {
+			margin:0 30px;
+		}
+		article p, .articleImgSection {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+
+		#mainArticlePage h3 {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+		#blastInjuryText {
+			margin-top: 0px;
+		}
+	}
+	@media (min-width: 480px)and (max-width: 600px) {
+		.audioDuration {
+			margin-top: 0%;
+		}
+		.playAudioText, .showLength {
+			font-size: 12px;
+			line-height: 14px;
+		}
+	}
+/* ------ END MEDIA QUERIES -- TRY TO BE SPARING WITH THESE ------ */
+
+
+
+
+
+
+
+
+

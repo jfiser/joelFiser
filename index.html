@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui" />
+
+<link rel="stylesheet" href="css/inlineSlideShow2.css">
+<link rel="stylesheet" href="css/joelFiser.css">
+<!--<link rel="stylesheet" href="css/slideShow_masks.css">-->
+<style>
+</style>
+
+
+<!-- slideShow JS -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="./js/Tweenlite.min.js"></script>
+<script src="./js/CSSPlugin.min.js"></script>
+<script src="./js/EasePack.min.js"></script>
+<script src="./js/jquery.visible.min.js"></script>
+<script src="./js/SlideShow2.js"></script>
+<script src="./js/hammer.min.js"></script>
+<script src="./js/jquery.lazy.min.js"></script>
+</head>
+
+<body>
+
+<div id="slideShow1Div" class="inlineSlideShow2" tabindex="0"></div>
+<div id="titleBar">
+	<img id="commentIcon" src="./img/misc/commentIcon1.png"/>
+	<div id="titleName">Joel Fiser</div>
+</div>
+<!--<div id="commentBtn">comments</div>-->
+<div id="commentHolder">
+	<div id="commentBacking"></div>
+	<div id="disqus_thread"></div>
+</div>
+
+<script>
+    var slideShow1 = new SlideShow2("slideShow1Div", "data/jf-paintings.json");
+	var commentsOpen = false;
+	$("#commentIcon").click(function(){
+		console.log("click");
+		if(commentsOpen){
+			myHide();
+			commentsOpen = false;
+		}
+		else{
+			myShow();
+			commentsOpen = true;
+		}
+	});
+	
+	function myShow(){
+		console.log("myShow");
+		TweenLite.to($("#commentHolder"), .5, {right:"0%", ease:Quad.easeOut});
+	}
+	function myHide(){
+		console.log("myHide");
+		TweenLite.to($("#commentHolder"), .5, {right:"-100%", ease:Quad.easeOut});
+	}
+	
+</script>
+
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'joelfiser';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</body>
+</html>

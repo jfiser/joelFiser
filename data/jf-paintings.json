@@ -29,6 +29,43 @@
 			"caption2": "",
             "crop": "keep-centered-crop-right"
 		},
+        {
+			"imageUrl_2048": "./img/paintings/Cowboys2.jpg",
+            "imageUrl_1536": "./img/paintings/Cowboys2.jpg",
+			"imageUrl_640": "./img/paintings/Cowboys2.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "",
+			"crop": ""
+		},
+        {
+			"imageUrl_2048": "./img/paintings/DD.jpg",
+            "imageUrl_1536": "./img/paintings/DD.jpg",
+			"imageUrl_640": "./img/paintings/DD.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "",
+			"crop": ""
+		},
+        {
+			"imageUrl_2048": "./img/paintings/Lisa.jpg",
+            "imageUrl_1536": "./img/paintings/Lisa.jpg",
+			"imageUrl_640": "./img/paintings/Lisa.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "",
+			"crop": ""
+		},
+        
+        {
+			"imageUrl_2048": "./img/paintings/hoops.jpg",
+            "imageUrl_1536": "./img/paintings/hoops.jpg",
+			"imageUrl_640": "./img/paintings/hoops.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "",
+			"crop": ""
+		},
 		{
 			"imageUrl_2048": "./img/paintings/Horses.jpg",
             "imageUrl_1536": "./img/paintings/Horses.jpg",
@@ -37,6 +74,33 @@
 			"caption": "",
 			"caption2": "",
             "crop": "keep-centered-crop-right"
+		},
+        {
+			"imageUrl_2048": "./img/paintings/1142.jpg",
+            "imageUrl_1536": "./img/paintings/1142.jpg",
+			"imageUrl_640": "./img/paintings/1142.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "",
+			"crop": ""
+		},
+        {
+			"imageUrl_2048": "./img/paintings/Intimacy.jpg",
+            "imageUrl_1536": "./img/paintings/Intimacy.jpg",
+			"imageUrl_640": "./img/paintings/Intimacy.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "",
+			"crop": ""
+		},
+		{
+			"imageUrl_2048": "./img/paintings/Annointment.jpg",
+            "imageUrl_1536": "./img/paintings/Annointment.jpg",
+			"imageUrl_640": "./img/paintings/Annointment.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "",
+			"crop": ""
 		},
 		{
 			"imageUrl_2048": "./img/paintings/Wine Tasters.jpg",
@@ -47,24 +111,8 @@
 			"caption2": "",
             "crop": "keep-centered-crop-right"
 		},
-		{
-			"imageUrl_2048": "./img/paintings/Cowboys2.jpg",
-            "imageUrl_1536": "./img/paintings/Cowboys2.jpg",
-			"imageUrl_640": "./img/paintings/Cowboys2.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
-		{
-			"imageUrl_2048": "./img/paintings/DD.jpg",
-            "imageUrl_1536": "./img/paintings/DD.jpg",
-			"imageUrl_640": "./img/paintings/DD.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
+		
+		
         {
 			"imageUrl_2048": "./img/paintings/Death_of_a_Friend.jpg",
             "imageUrl_1536": "./img/paintings/Death_of_a_Friend.jpg",
@@ -74,15 +122,7 @@
 			"caption2": "",
 			"crop": ""
 		},
-        {
-			"imageUrl_2048": "./img/paintings/hoops.jpg",
-            "imageUrl_1536": "./img/paintings/hoops.jpg",
-			"imageUrl_640": "./img/paintings/hoops.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
+        
         
         {
 			"imageUrl_2048": "./img/paintings/Hope.jpg",
@@ -112,24 +152,7 @@
 			"caption2": "",
 			"crop": ""
 		},
-		{
-			"imageUrl_2048": "./img/paintings/Intimacy.jpg",
-            "imageUrl_1536": "./img/paintings/Intimacy.jpg",
-			"imageUrl_640": "./img/paintings/Intimacy.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
-		{
-			"imageUrl_2048": "./img/paintings/Lisa.jpg",
-            "imageUrl_1536": "./img/paintings/Lisa.jpg",
-			"imageUrl_640": "./img/paintings/Lisa.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
+		
 		{
 			"imageUrl_2048": "./img/paintings/Wait.jpg",
             "imageUrl_1536": "./img/paintings/Wait.jpg",
@@ -158,15 +181,7 @@
 			"crop": ""
 		},
 		
-		{
-			"imageUrl_2048": "./img/paintings/1142.jpg",
-            "imageUrl_1536": "./img/paintings/1142.jpg",
-			"imageUrl_640": "./img/paintings/1142.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
+		
 		{
 			"imageUrl_2048": "./img/paintings/Secret.jpg",
             "imageUrl_1536": "./img/paintings/Secret.jpg",
@@ -196,8 +211,15 @@
 			"crop": ""
 		},
         
-		
-		
+		{
+			"imageUrl_2048": "./img/paintings/Rooster.jpg",
+            "imageUrl_1536": "./img/paintings/Rooster.jpg",
+			"imageUrl_640": "./img/paintings/Rooster.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "",
+			"crop": ""
+		},
 		{
 			"imageUrl_2048": "./img/paintings/Knocker.jpg",
             "imageUrl_1536": "./img/paintings/Knocker.jpg",
@@ -234,15 +256,7 @@
 			"caption2": "",
 			"crop": ""
 		},
-		{
-			"imageUrl_2048": "./img/paintings/Rooster.jpg",
-            "imageUrl_1536": "./img/paintings/Rooster.jpg",
-			"imageUrl_640": "./img/paintings/Rooster.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
+		
 		
 		{
 			"imageUrl_2048": "./img/paintings/Cowboys3.jpg",
@@ -309,15 +323,7 @@
 			"caption2": "",
 			"crop": ""
 		},
-		{
-			"imageUrl_2048": "./img/paintings/Annointment.jpg",
-            "imageUrl_1536": "./img/paintings/Annointment.jpg",
-			"imageUrl_640": "./img/paintings/Annointment.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
+		
 		{
 			"imageUrl_2048": "./img/paintings/Language_Of_The_Spine.jpg",
             "imageUrl_1536": "./img/paintings/Language_Of_The_Spine.jpg",

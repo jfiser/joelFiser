@@ -178,8 +178,8 @@ SlideShow2.prototype.getImageData = function(_imagesJsonUrl){
             self.turnOffScroll = _dataObj.turnOffScroll;
             self.hasAudioPlayer = _dataObj.hasAudioPlayer;
             self.scrollDownToHideAd = _dataObj.scrollDownToHideAd;
-            console.log("hasAudio: " + self.hasAudioPlayer);
-            console.log("self: %o", self);
+            //console.log("hasAudio: " + self.hasAudioPlayer);
+            //console.log("self: %o", self);
             self.stackImageArrowsText = _dataObj.stackImageArrowsText;
             self.topZindex = self.imageArr.length; // so we can shuffle the slides
             self.hasCoverSlide = false;
@@ -373,8 +373,8 @@ SlideShow2.prototype.setNextSlide = function(_this){
     this.newSlideHolder = this.slideArr[newIndx].slideHolder;
     $(this.newSlide.slideHolder).css("zIndex", this.topZindex-1);
     this.newSlide.showSlide();
-    this.captionBar.hideCaptionBar();
-    this.captionBar2.hideCaptionBar();
+    //this.captionBar.hideCaptionBar();
+    //this.captionBar2.hideCaptionBar();
     if(!this.allImagesLoaded){
         this.loadRestOfImages();
     }
@@ -440,8 +440,8 @@ SlideShow2.prototype.setPrevSlide = function(_this){
     this.newSlideHolder = this.slideArr[newIndx].slideHolder;
     $(this.newSlide.slideHolder).css("zIndex", this.topZindex-1);
     this.newSlide.showSlide();
-    this.captionBar.hideCaptionBar();
-    this.captionBar2.hideCaptionBar();
+    //this.captionBar.hideCaptionBar();
+    //this.captionBar2.hideCaptionBar();
     if(!this.allImagesLoaded){
         this.loadRestOfImages();
     }

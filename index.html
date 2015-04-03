@@ -1,6 +1,24 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui" />
+<meta name="description" content="Paintings and Software By Joel Fiser">
+<meta name="keywords" content="Joel Fiser,painting,Software">
+<meta name="author" content="Joel Fiser">
+    
+<!-- OpenGraph tags for Facebook, Google+ and LinkedIn //-->
+<meta property="og:site_name" content="Joel Fiser" />
+<meta property="og:url" content="http://sympleton.com"/> 
+<meta property="og:title" content="Joel Fiser"/>
+<meta property="og:description" content="Paintings and Software"/>
+<meta property="og:image" content="http://sympleton.com/img/paintings/Surveyor2.jpg"/>
+<!-- End Open Graph -->  
+<!-- Twitter -->
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Joel Fiser"/>
+<meta name="twitter:description" content="Paintings and Software"/>
+<meta name="twitter:image:src" content="http://sympleton.com/img/paintings/Surveyor2.jpg"/>    
+<!-- End Twitter -->
+    
 
 <link rel="stylesheet" href="css/inlineSlideShow2.css">
 <link rel="stylesheet" href="css/joelFiser.css">
@@ -24,7 +42,9 @@
 
 <div id="slideShow1Div" class="inlineSlideShow2" tabindex="0"></div>
 <div id="titleBar">
-	<img id="commentIcon" src="./img/misc/commentIcon1.png"/>
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <div id="shareIcon" class="addthis_sharing_toolbox"></div>
+    <img id="commentIcon" src="./img/misc/commentIcon1.png"/>
 	<div id="titleName">Joel Fiser</div>
 </div>
 <!--<div id="commentBtn">comments</div>-->
@@ -32,32 +52,108 @@
 	<div id="commentBacking"></div>
 	<div id="disqus_thread"></div>
 </div>
+    
+<div id="coverPage">
+    <div id="backing"></div>
+    <img id="waitImg" src="img/paintings/Wait.jpg"/>
+    <div id="titleHolder">
+        <p>&ldquo;Sometimes you just want to paint a bunch of naked people.&rdquo;</p>
+        <span id="quoteAuthor">- Paul Cezanne</span>
+    
+</div>
+    
+    
+    
+    
+    
+<div id=paintings>
+			<div><img src= "./img/paintings/Cowboys2.jpg"/>
+            <p class=caption2>Photorealism: Paintings about Photography</p><p class=caption1><strong>It's no coincidence</strong> that the rise of Modern Art coincides with the popular acceptance of photography. Painters saw the need to distance themselves from what quickly became photography's domain - recording a moment in space and time.</p>
+            <p class=caption3>Steer Show<br></p><p class=caption4>oil paint, 48in. x 36in</p></div>
+            
+			<div><img src= "./img/paintings/Lisa.jpg"/>
+                <p class=caption2>Trompe-l'&#x0153;il (fool the eye) </p><p class=caption1><strong>For centuries,</strong> painters had been proving their virtuosity by demonstarting how well they could fool the eye by making a 2D surface appear 3D.</p>
+                <p class=caption3>Lisa<br></p><p class=caption4>oil paint, 30in. x 24in.</p></div>
+
+			<div><img src= "./img/paintings/Horses.jpg"/>
+                <p class=caption2>Respecting the Flatness of the Canvas </p><p class=caption1><strong>Soon after the camera </strong>went mainstream, the method of fooling the eye came to be regarded as taking the easy way out, or inauthentic. Instead of making the 2D canvas look 3D, painters began to try to conform the 3D world to the flat canvas.</p>
+                <p class=caption3>Horse Race<br></p><p class=caption4>oil paint, 36in. x 36in.</p></div>
+
+			<div><img src= "./img/paintings/DD.jpg"/>
+                <p class=caption2>All-over painting </p><p class=caption1><strong>As painters moved away from mimicking </strong>the 3D World, they questioned the notion of even painting a subject. A subject pulls the eye toward itelf and demands attention to its area of the canvas. If it was removed, could every part of a painting be interesting?</p>
+                </div>
+
+			<div><img src= "./img/paintings/Intimacy.jpg"/>
+                <p class=caption3>Intimacy<br></p>
+                <p class=caption4>oil paint, 36in. x 36in.</p>
+</div>
+			
+
+<div><img src= "./img/paintings/Martyr.jpg"/>
+    <p class=caption2>An Object Unto Itself </p><p class=caption1><strong>Why should a painting be about something else? </strong> Instead of representing something, painters became more aware of the object they were making as a thing unto itself. </p>
+    <p class=caption3>Martyr<br></p><p class=caption4>oil paint mixed with beeswax, 32in. x 40in.</p></div>
+
+			<div><img src= "./img/paintings/Fever.jpg"/>
+                <p class=caption3>Fever<br></p><p class=caption4>inner tubes, tire valve, plumbing fixture, copper, oil paint; 30in. x 38in.</p></div>
+
+    
+</div>     
+    
+    
 
 <script>
+    
+var commentsOpen = false;
+    
+$(document).ready(function(){
+    window.addEventListener('resize', windowResize);
+    
     var slideShow1 = new SlideShow2("slideShow1Div", "data/jf-paintings.json");
 	var commentsOpen = false;
-	$("#commentIcon").click(function(){
-		console.log("click");
-		if(commentsOpen){
-			myHide();
-			commentsOpen = false;
-		}
-		else{
-			myShow();
-			commentsOpen = true;
-		}
-	});
-	
-	function myShow(){
-		console.log("myShow");
-		TweenLite.to($("#commentHolder"), .5, {right:"0%", ease:Quad.easeOut});
-	}
-	function myHide(){
-		console.log("myHide");
-		TweenLite.to($("#commentHolder"), .5, {right:"-100%", ease:Quad.easeOut});
-	}
+	setCommentIconClick();
+	setCoverPageClick();
+    
+    windowResize();
+});
+    
+function windowResize(){
+    console.log($(window).height() - $("#coverPage").css("top"));
+    console.log($("#coverPage").position().top);
+    $("#coverPage").css("height", $(window).height() 
+                            - $("#coverPage").position().top + "px");
+}
+
+function setCommentIconClick(){
+    $("#commentIcon").click(function(){
+        if(commentsOpen){
+            myHide();
+            commentsOpen = false;
+        }
+        else{
+            myShow();
+            commentsOpen = true;
+        }
+    });
+}
+function setCoverPageClick(){
+    $("#coverPage").click(function(){
+        TweenLite.to($(this), .5, {autoAlpha:0, ease:Linear.none});
+    });
+
+}
+function myShow(){
+    TweenLite.to($("#commentHolder"), .5, {right:"0%", ease:Quad.easeOut});
+}
+function myHide(){
+    TweenLite.to($("#commentHolder"), .5, {right:"-100%", ease:Quad.easeOut});
+}
 	
 </script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-551770643a4f878b" async="async"></script>    
+
+    
 
 
 <script type="text/javascript">

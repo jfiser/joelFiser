@@ -27,14 +27,14 @@
 			"alt": "Picture of a soldier&#x2019; mask",
 			"caption": "<p class=caption2>Is Painting a Dead Art Form?</p><p class=caption1><strong>Try this test...</strong> name 2 famous living painters... No? How about 2 famous dead painters from the last 50 years? Hmmm... Is painting relevant at all any more?</p>",
 			"caption2": "<p class=caption3>Surveyor<br></p><p class=caption4>oil paint, 36in. x 30in.</p>",
-            "crop": "keep-centered-crop-right"
+            "crop": ""
 		},
         {
 			"imageUrl_2048": "./img/paintings/Cowboys2.jpg",
             "imageUrl_1536": "./img/paintings/Cowboys2.jpg",
 			"imageUrl_640": "./img/paintings/Cowboys2.jpg",
 			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "<p class=caption2>Photorealism: Paintings about Photography</p><p class=caption1><strong>It's no coincidence</strong> that the rise of Modern Art coincides with the rise of modern photography. Painters saw the need to distance themselves from what quickly became photography's domain - recording a moment in space and time.</p>",
+			"caption": "<p class=caption2>Photorealism: Paintings about Photography</p><p class=caption1><strong>It's no coincidence</strong> that the rise of Modern Art coincides with the popular acceptance of photography. Painters saw the need to distance themselves from what quickly became photography's domain - recording a moment in space and time.</p>",
 			"caption2": "<p class=caption3>Steer Show<br></p><p class=caption4>oil paint, 48in. x 36in</p>",
 			"crop": ""
 		},
@@ -43,7 +43,7 @@
             "imageUrl_1536": "./img/paintings/Lisa.jpg",
 			"imageUrl_640": "./img/paintings/Lisa.jpg",
 			"alt": "Picture of a soldier&#x2019; mask",
-            "caption": "<p class=caption2>Trompe-l'&#x0153;il </p><p class=caption1><strong>For centuries,</strong> painters had been proving their virtuosity by demonstarting how well they could fool the eye by making a 2D surface appear 3D.</p>",
+            "caption": "<p class=caption2>Trompe-l'&#x0153;il (fool the eye) </p><p class=caption1><strong>For centuries,</strong> painters had been proving their virtuosity by demonstarting how well they could fool the eye by making a 2D surface appear 3D.</p>",
 			"caption2": "<p class=caption3>Lisa<br></p><p class=caption4>oil paint, 30in. x 24in.</p>",
 			"crop": ""
 		},
@@ -52,49 +52,87 @@
             "imageUrl_1536": "./img/paintings/Horses.jpg",
 			"imageUrl_640": "./img/paintings/Horses.jpg",
 			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "<p class=caption2>Respecting the Flatness of the Canvas </p><p class=caption1><strong>A painting is 2D, </strong> and tricking the eye is taking the easy way out. Instead of making the 2D canvas look like 3D, painters began to try to conform a 3D world to the flat canvas.</p>",
+			"caption": "<p class=caption2>Respecting the Flatness of the Canvas </p><p class=caption1><strong>Soon after the camera </strong>went mainstream, the method of fooling the eye came to be regarded as taking the easy way out, or inauthentic. Instead of making the 2D canvas look 3D, painters began to try to conform the 3D world to the flat canvas.</p>",
 			"caption2": "<p class=caption3>Horse Race<br></p><p class=caption4>oil paint, 36in. x 36in.</p>",
-            "crop": "keep-centered-crop-right"
+            "crop": ""
 		},
         {
 			"imageUrl_2048": "./img/paintings/DD.jpg",
             "imageUrl_1536": "./img/paintings/DD.jpg",
 			"imageUrl_640": "./img/paintings/DD.jpg",
 			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
+			"caption": "<p class=caption2>All-over painting </p><p class=caption1><strong>As painters moved away from mimicking </strong>the 3D World, they questioned the notion of even painting a subject. A subject pulls the eye toward itelf and demands attention to its area of the canvas. If it was removed, could every part of a painting be interesting?</p>",
 			"caption2": "<p class=caption3>Ripple<br></p><p class=caption4>oil paint, 84in. x 84in.</p>",
 			"crop": ""
 		},
         
-        
-        {
-			"imageUrl_2048": "./img/paintings/hoops.jpg",
-            "imageUrl_1536": "./img/paintings/hoops.jpg",
-			"imageUrl_640": "./img/paintings/hoops.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
-		
-        {
-			"imageUrl_2048": "./img/paintings/1142.jpg",
-            "imageUrl_1536": "./img/paintings/1142.jpg",
-			"imageUrl_640": "./img/paintings/1142.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
         {
 			"imageUrl_2048": "./img/paintings/Intimacy.jpg",
             "imageUrl_1536": "./img/paintings/Intimacy.jpg",
 			"imageUrl_640": "./img/paintings/Intimacy.jpg",
 			"alt": "Picture of a soldier&#x2019; mask",
 			"caption": "",
-			"caption2": "",
+			"caption2": "<p class=caption3>Intimacy<br></p><p class=caption4>oil paint, 36in. x 36in.</p>",
 			"crop": ""
 		},
+        {
+			"imageUrl_2048": "./img/paintings/Martyr.jpg",
+            "imageUrl_1536": "./img/paintings/Martyr.jpg",
+			"imageUrl_640": "./img/paintings/Martyr.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "<p class=caption2>An Object Unto Itself </p><p class=caption1><strong>Why should a painting be about something else? </strong> Instead of representing something, painters became more aware of the object they were making as a thing unto itself. </p>",
+			"caption2": "<p class=caption3>Martyr<br></p><p class=caption4>oil paint mixed with beeswax, 32in. x 40in.</p>",
+			"crop": ""
+		},
+        {
+			"imageUrl_2048": "./img/paintings/Fever.jpg",
+            "imageUrl_1536": "./img/paintings/Fever.jpg",
+			"imageUrl_640": "./img/paintings/Fever.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "<p class=caption3>Fever<br></p><p class=caption4>inner tubes, tire valve, plumbing fixture, copper, oil paint; 30in. x 38in.</p>",
+			"crop": ""
+		},
+        {
+			"imageUrl_2048": "./img/paintings/ChaChaCha.jpg",
+            "imageUrl_1536": "./img/paintings/ChaChaCha.jpg",
+			"imageUrl_640": "./img/paintings/ChaChaCha.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "<p class=caption3>Cha Cha Cha<br></p><p class=caption4>aluminum, upholstery over foam, vinyl flooring, formica; 30in. x 72in.</p>",
+			"crop": ""
+		},
+        {
+			"imageUrl_2048": "./img/paintings/Rooster.jpg",
+            "imageUrl_1536": "./img/paintings/Rooster.jpg",
+			"imageUrl_640": "./img/paintings/Rooster.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "<p class=caption3>Cowgirl<br></p><p class=caption4>python skin, blue jean, upholstery over foam with tacks, vinyl flooring, formica; 30in. x 72in.</p>",
+			"crop": ""
+		},
+        {
+			"imageUrl_2048": "./img/paintings/hoops.jpg",
+            "imageUrl_1536": "./img/paintings/hoops.jpg",
+			"imageUrl_640": "./img/paintings/hoops.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "<p class=caption2>Painting and Time </p><p class=caption1><strong>Where a photo depicts </strong>a single moment, video depicts a slice of time. Painters attempted to get beyond this by depicting stories that weren't moments in time, but were more about an attitude or a feeling.</p>",
+			"caption2": "<p class=caption3>Game<br></p><p class=caption4>oil paint, 48in. x 36in.</p>",
+			"crop": ""
+		},
+        {
+			"imageUrl_2048": "./img/paintings/1142.jpg",
+            "imageUrl_1536": "./img/paintings/1142.jpg",
+			"imageUrl_640": "./img/paintings/1142.jpg",
+			"alt": "Picture of a soldier&#x2019; mask",
+			"caption": "",
+			"caption2": "<p class=caption3>Visitor<br></p><p class=caption4>oil paint, 48in. x 36in.</p>",
+			"crop": ""
+		},
+        
+		
+        
+        
 		{
 			"imageUrl_2048": "./img/paintings/Annointment.jpg",
             "imageUrl_1536": "./img/paintings/Annointment.jpg",
@@ -111,7 +149,7 @@
 			"alt": "Picture of a soldier&#x2019; mask",
 			"caption": "",
 			"caption2": "",
-            "crop": "keep-centered-crop-right"
+            "crop": ""
 		},
 		
 		
@@ -203,25 +241,9 @@
 			"crop": ""
 		},
         
-        {
-			"imageUrl_2048": "./img/paintings/ChaChaCha.jpg",
-            "imageUrl_1536": "./img/paintings/ChaChaCha.jpg",
-			"imageUrl_640": "./img/paintings/ChaChaCha.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
         
-		{
-			"imageUrl_2048": "./img/paintings/Rooster.jpg",
-            "imageUrl_1536": "./img/paintings/Rooster.jpg",
-			"imageUrl_640": "./img/paintings/Rooster.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
+        
+		
 		{
 			"imageUrl_2048": "./img/paintings/Knocker.jpg",
             "imageUrl_1536": "./img/paintings/Knocker.jpg",
@@ -270,15 +292,7 @@
 			"crop": ""
 		},
 		
-		{
-			"imageUrl_2048": "./img/paintings/Fever.jpg",
-            "imageUrl_1536": "./img/paintings/Fever.jpg",
-			"imageUrl_640": "./img/paintings/Fever.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
+		
 		{
 			"imageUrl_2048": "./img/paintings/FullMoon2.jpg",
             "imageUrl_1536": "./img/paintings/FullMoon2.jpg",
@@ -316,15 +330,7 @@
 			"caption2": "",
 			"crop": ""
 		},
-		{
-			"imageUrl_2048": "./img/paintings/Martyr.jpg",
-            "imageUrl_1536": "./img/paintings/Martyr.jpg",
-			"imageUrl_640": "./img/paintings/Martyr.jpg",
-			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
-			"caption2": "",
-			"crop": ""
-		},
+		
 		
 		{
 			"imageUrl_2048": "./img/paintings/Language_Of_The_Spine.jpg",

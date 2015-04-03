@@ -1,23 +1,34 @@
 
 body{
 	overflow-x:hidden;
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+    margin:0;
+    border:0;
 }
 #commentIcon{
 	cursor:pointer;
 }
 @media screen and (max-width:770px){
 	#titleBar{
-		width:200px;
+		width:305px;
 		margin-left:auto;
 		margin-right:auto;
-		position:absolute;
+		position:fixed;
 		left:0%;
 		right:0%;
 		font-family:"pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
 		font-size: 27px;
-		z-index:2000;
+		z-index:2200;
 		text-align:center;
 		color:#999999;
+	}
+    #shareIcon{
+		float:left;
+		width:38px;
+		height:auto;
+		margin-right:30px;
 	}
 	#commentIcon{
 		float:left;
@@ -28,7 +39,7 @@ body{
 	}
 	#commentHolder{
 		z-index:2000;
-		position:absolute;
+		position:fixed;
 		width:100%;
 		right:-100%;
 		top:90px;
@@ -38,14 +49,22 @@ body{
 @media screen and (min-width:771px){
 	#titleBar{
 		height:10%;
-		position:absolute;
-		right:20px;
+        width:345px;
+		position:fixed;
+		right:0px;
 		top:3%;
-		z-index:2000;
+		z-index:2200;
 		color:#999999;
 		font-family:"pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
 		font-size: 42px;
 		margin-left:30px;
+	}
+    #shareIcon{
+		float:left;
+		width:38px;
+		height:auto;
+		margin-right:30px;
+        margin-top:3px;
 	}
 	#commentIcon{
 		float:left;
@@ -56,7 +75,7 @@ body{
 	}
 	#commentHolder{
 		z-index:2000;
-		position:absolute;
+		position:fixed;
 		width:40%;
 		right:-100%;
 		top:90px;
@@ -84,6 +103,77 @@ body{
 	z-index:4000;
 	position:relative;
 }
+
+#paintings{
+   display:none; 
+}
+
+
+#coverPage{
+    width:100%;
+    height:100%;
+    z-index:2100;
+    position:fixed;
+}
+#backing{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background:white;
+    opacity:.9;
+}
+#titleHolder{
+    text-align:left;
+    line-height:24px;
+    font-family: "Chronicle SSm 3r", Georgia, Times, "Times New Roman", serif; 
+    font-size:22px;
+    color:#888888;
+    margn-bottom:0px;
+    display:block;
+    
+    position:absolute;
+    left:50px;
+	width:33%;
+	/*height:25%;*/
+	top:100px;
+    /*background-color:rgba(255, 255, 255, .8);*/
+}
+#waitImg{
+    position:absolute;
+    right:70px;
+	height:70%;
+	/*height:25%;*/
+	top:100px;
+}
+@media screen and (max-width:631px){
+    #titleHolder{
+        width:100%;
+        top:auto;
+        left:0px;
+        bottom:0px;
+        padding:0px 20px 0px 20px;
+        margin-bottom: 14px;
+        box-sizing: border-box;
+    }
+    #waitImg{
+        position:absolute;
+        right:70px;
+        height:63%;
+        /*height:25%;*/
+        top:100px;
+    }
+}
+#quoteAuthor{
+    text-align:right;
+    line-height:24px;
+    font-family: "Chronicle SSm 3r", Georgia, Times, "Times New Roman", serif; 
+    font-size:22px;
+    color:#888888;
+    display:block;
+    
+}
+
+
 
 
 

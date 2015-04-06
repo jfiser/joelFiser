@@ -89,7 +89,7 @@
             "imageUrl_1536": "./img/paintings/Fever.jpg",
 			"imageUrl_640": "./img/paintings/Fever.jpg",
 			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "",
+			"caption": "<p class=caption2>Paint As Skin</p><p class=caption1><strong>Try some other skins. </strong> Since paint is a skin on top of a flat surface, what would other skins look like. There's only one way to find out. </p>",
 			"caption2": "<p class=caption3>Fever<br></p><p class=caption4>inner tubes, tire valve, plumbing fixture, copper, oil paint; 30in. x 38in.</p>",
 			"crop": ""
 		},
@@ -116,7 +116,7 @@
             "imageUrl_1536": "./img/paintings/hoops.jpg",
 			"imageUrl_640": "./img/paintings/hoops.jpg",
 			"alt": "Picture of a soldier&#x2019; mask",
-			"caption": "<p class=caption2>Painting and Time </p><p class=caption1><strong>Where a photo depicts </strong>a single moment, video depicts a slice of time. Painters attempted to get beyond this by depicting stories that weren't moments in time, but were more about an attitude or a feeling.</p>",
+			"caption": "<p class=caption2>Painting and Time </p><p class=caption1><strong>Where a photo depicts </strong>a single moment, video depicts a slice of time. Painters attempted to get beyond this by depicting stories that weren't moments in time, but were more about an attitude or a feeling. Of course, photographs can do this too.</p>",
 			"caption2": "<p class=caption3>Game<br></p><p class=caption4>oil paint, 48in. x 36in.</p>",
 			"crop": ""
 		},
